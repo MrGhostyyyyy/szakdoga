@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-0%co6kjjjre*^g0)g85_d0%oi-x5%n&28=88d8l$aq!oy-6l4s'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['becoming-bluebird-notably.ngrok-free.app', 'localhost']
 
 
 # Application definition
