@@ -1,8 +1,3 @@
-# Szakdolgozat
-Téma: Bang Párbaj társasjáték implementálása egy- vagy többjátékos módban  
-Készítette: Sós Marcell Sándor  
-Konzulens: dr. Gombos Gergő
-
 # Bang Párbaj
 {szabalyok, leiras lehet felig meddig copy-pasta}
 
@@ -14,5 +9,5 @@ Linux:
 &emsp;`python3 manage.py runserver`  
 &emsp;`ngrok http 8000 --domain becoming-bluebird-notably.ngrok-free.app`
 
-Windows:  
-&emsp;`Is this necessary?`
+uml osztály weboldal terv, egyedkapcsolat, use-case diagram,, szekvencia
+  

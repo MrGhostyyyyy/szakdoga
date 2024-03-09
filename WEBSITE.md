@@ -2,7 +2,7 @@ Index - Főoldal
 Üdvözli a felhasználót, és feldob opciót hogy regisztráljon vgy bejelentkezzen, A 2 gomb átirányít a megfelelő weboldalra.
 
 Login - Bejelentkezés
-Bejelentkezés oldal elsőnek csak nevet kér el, ellenőrzi, hogy be van-e már jelentkezve, ha igen akkor a betoppanóba irányítja, ha nincs akkor elkéri a jelszavát. Bejelentkezés időtúllépése 2 perc (120 másodperc)-
+Bejelentkezés oldal elsőnek csak nevet kér el, ellenőrzi, hogy be van-e már jelentkezve, ha igen akkor a betoppanóba irányítja, ha nincs akkor elkéri a jelszavát. Bejelentkezés időtúllépése 2 perc (120 másodperc) ez után kilép a felhasználó az adatbázisban.
 
 Signup - Regisztráció
 Regisztációs oldal, egy űrlapot jelenít meg, amit a felhasználónak kell kitöltenie. Itt az adatbázis védelmének érdekében nem lesznek meg az adatbázis jogosultságok az alkalmazásnak, ami küldi az adatokat, a szerver paraméteresen fogja az adatbázisba injektálni az adatokat. Hasonlóan mint a bejelentkezésnél. 
