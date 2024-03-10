@@ -1,0 +1,46 @@
+name;description;image;type;symbol;bandit_occurence;cowboy_occurence
+Colt;{"Találat"};pics/colt.jpg;bang;DYNAMITE;5;1
+Gyorstüzelés;{"Találat"} Célpontod annyi "Találat" célpontjává válik, ahány felszereléskártya van kijátszva hozzá.;pics/quickfire.jpg;bang;BARREL;0;1
+Gyorstüzelés;{"Találat"} Célpontod annyi "Találat" célpontjává válik, ahány felszereléskártya van kijátszva hozzá.;pics/quickfire.jpg;bang;HORSESHOE;0;1
+Karabély;{"Találat"} "Kitérés" esetén azonnal eldobhatsz egy felszereléskártyát valamelyik aktív szereplőtől.;pics/carbine.jpg;bang;BARREL;1;0
+Karabély;{"Találat"} "Kitérés" esetén azonnal eldobhatsz egy felszereléskártyát valamelyik aktív szereplőtől.;pics/carbine.jpg;bang;HORSESHUE;0;2
+Peacemaker;{"Találat"} Sikeres "Kitérés" esetén ellenfelednek el kell dobnia egy általa választott, kézben tartott lapját.;pics/peacemaker.jpg;bang;HORSESHOE;0;2
+Remington;{"Találat"} "Kitérés" esetén húzz egy lapot!;pics/remington.jpg;bang;SNAKE;1;0
+Remington;{"Találat"} "Kitérés" esetén húzz egy lapot!;pics/remington.jpg;bang;BARREL;1;0
+Schofield;{"Találat"} "Kitérés" esetén aktív szereplőd visszanyer egy életpontot.;pics/schofield.jpg;bang;BARREL;2;0
+Shotgun;{"Találat"} "Kitérés" esetén kicserélheted saját vagy ellenfeled aktív vagy hátvéd szereplőjét! Mozgasd át az aktívszereplő-jelzőt!;pics/shotgun.jpg;bang;HORSESHOE;2;0
+Shotgun;{"Találat"} "Kitérés" esetén kicserélheted saját vagy ellenfeled aktív vagy hátvéd szereplőjét! Mozgasd át az aktívszereplő-jelzőt!;pics/shotgun.jpg;bang;DYNAMITE;0;2
+Winchester;{"Találat"} Kijátszhatod ellenfeled hátvéd szereplője ellen is.;pics/winchester.jpg;bang;HORSESHOE;0;2
+Bank;Húzás fázisod során húzz eggyel több lapot!;pics/bank.jpg;equipment;BARREL;0;1
+Csörgőkígyó;{"Mindig aktív"} Minden köröd kezdetén fedj fel egy kártyát! Ha az eredmény "Kígyó", szereplőd elveszít egy életpontot.;pics/rattlesnake.jpg;equipment;SNAKE;1;0
+Dinamit;{"Mindig aktív"} Ezt a lapod saját hátvéd szereplődre játszhatod ki. A köröd kezdetén fedj fel egy kártyát! Ha "Dinamit", a Dinamit felrobban, és szereplőd elveszít 3 életpontot. Dobd el ezt a kártyát. Ha nem "Dinamit", ez a kártya ellenfeled hátvéd szereplőjéhez kerül.;pics/dynamite.jpg;equipment;BARREL;1;0
+Fegyvertáska;Köröd során akárhány BANG! kártyát kijátszhatsz.;pics/gunbelt.jpg;equipment;DYNAMITE;0;1
+Fegyvertáska;Köröd során akárhány BANG! kártyát kijátszhatsz.;pics/gunbelt.jpg;equipment;SNAKE;1;0
+Hordó;Amikor ezt a szereplőt "Találat" éri, fedj fel egy kártyát! Ha a felfedett lap "Hordó", akkor "Kitérés".;pics/barrel.jpg;equipment;SNAKE;1;1
+Kalap;Eldobhatod ezt a kártyát. Ez esetben "Kitérés".;pics/hat.jpg;equipment;HORSESHOE;1;1
+Pánik;{"Újratöltés"} {"Mindig aktív"} Köröd kezdetén cseréld ki aktív és hátvéd szereplődet! (Mozgasd át az aktívszereplő-jelződet!);pics/panic.jpg;equipment;BARREL;0;1
+Távcsöves Puska;{"Újratöltés"} "Találat" kártyáiddal megcélozhatod ellenfeled hátvéd szereplőjét is.;pics/sniper.jpg;equipment;HORSESHOE;1;1
+Zsebóra;{"Újratöltés"} Minden alkalommal, amikor ellenfeled mozgatja aktívszereplő-jelzőjét, húzz egy lapot!;pics/pocketwatch.jpg;equipment;HORSESHOE;2;0
+Derringer;{"Találat"} Ellenfeled bármely lap eldobásával elkerülheti ezt a "Találat"-t.;pics/derringer.jpg;action;HORSESHOE;0;3
+Derringer;{"Találat"} Ellenfeled bármely lap eldobásával elkerülheti ezt a "Találat"-t.;pics/derringer.jpg;action;SNAKE;0;1
+Garling;{"Találat"} Az aktív szereplődön kívül minden játékban lévő szereplő egy "Találat" célpontjává válik.;pics/gatling.jpg;action;BARREL;0;1
+Indiánok!;Az aktív szerelődön kívül minden szereplő sorsáról dönt a tulajdonosa: vagy eldob egy "Találat" kártyát, vagy a szereplője veszít egy életpontot.;pics/indians.jpg;action;HORSESHOE;1;1
+Kés;{"Találat"};pics/knife.jpg;action;HORSESHOE;2;0
+Kés;{"Találat"};pics/knife.jpg;action;SNAKE;1;0
+Kocsma;Válaszd ki az egyik aktív szereplőt vagy saját hátvéd szereplődet! Életpontjainak száma 3-ra változik.;pics/inn.jpg;action;BARREL;0;1
+Kulacs;{"Újratöltés"} Cseréld ki a saját vagy ellenfeled aktív és hátvéd szereplőjét! (Mozgasd át az aktívszereplő-jelzőt!);pics/canteen.jpg;action;BARREL;1;1
+Kulacs;{"Újratöltés"} Cseréld ki a saját vagy ellenfeled aktív és hátvéd szereplőjét! (Mozgasd át az aktívszereplő-jelzőt!);pics/canteen.jpg;action;BARREL;0;3
+Lopás;Húzz egy lapot ellenfeled kezéből vagy dobj el egy játékban lévő lapot! (Ellenfeled hátvédjétől nem lophatsz!);pics/steal.jpg;action;BARREL;1;0
+Lopás;Húzz egy lapot ellenfeled kezéből vagy dobj el egy játékban lévő lapot! (Ellenfeled hátvédjétől nem lophatsz!);pics/steal.jpg;action;HORSESHOE;3;0
+Nem Talált!;{"Kitérés"};pics/no_hit.jpg;action;HORSESHOE;1;0
+Nem Talált!;{"Kitérés"};pics/no_hit.jpg;action;BARREL;1;1
+Nem Talált!;{"Kitérés"};pics/no_hit.jpg;action;SNAKE;5;4
+Párbaj;Ellenfeled eldobhat egy "Találat" kártyát, utána eldobhatsz te is egyet, majd ő stb. 1 életpontot veszít az első olyan játékos aktív szereplője, aki nem tudja vagy nem akarja ezt megtenni.;pics/duel.jpg;action;DYNAMITE;0;1
+Párbaj;Ellenfeled eldobhat egy "Találat" kártyát, utána eldobhatsz te is egyet, majd ő stb. 1 életpontot veszít az első olyan játékos aktív szereplője, aki nem tudja vagy nem akarja ezt megtenni.;pics/duel.jpg;action;HORSESHOE;1;0
+Postakocsi;Húzz 3 lapot, egyet dobj el, a másik kettőt tartsd meg!;pics/postcar.jpg;action;BARREL;1;2
+Sör;Aktív és hátvéd szereplőd visszanyer 1-1 életpontot.;pics/beer.jpg;action;BARREL;1;0
+Szatócsbolt;Fordíts fel 2-2 lapot mindkét pakliból (vagy négy lapot a közös pakliból, ha már csak egy pakli van)! Felváltva vegyétek megatokhoz a felfordított kártyákat! Te kezdesz.;pics/grocery.jpg;action;SNAKE;0;1
+Szatócsbolt;Fordíts fel 2-2 lapot mindkét pakliból (vagy négy lapot a közös pakliból, ha már csak egy pakli van)! Felváltva vegyétek megatokhoz a felfordított kártyákat! Te kezdesz.;pics/grocery.jpg;action;HORSESHOE;1;0
+Tanítónő;Vedd fel kezedbe az egyik, már asztalon lévő felszereléskártyát! (Az ellenfeled hátvédjétől nem lehet.);pics/teacher.jpg;action;HORSESHOE;0;1
+Tanítónő;Vedd fel kezedbe az egyik, már asztalon lévő felszereléskártyát! (Az ellenfeled hátvédjétől nem lehet.);pics/teacher.jpg;action;HORSESHOE;0;1
+Visszatámadás;{"Kitérés"} Ellenfeled aktív szereplője 1 "Találat" célpontjává válik.;pics/counter.jpg;action;HORSESHOE;0;1

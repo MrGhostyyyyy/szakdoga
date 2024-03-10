@@ -98,9 +98,7 @@ Amikor egy kártya vagy képesség azt írja, hogy "a szereplő egy "Találat" s
 ![Zsebóra](pics/pocketwatch.jpg "Zsebóra")
 **Zsebóra** (0/2): "Újratöltés" Minden alkalommal, amikor ellenfeled mozgatja az aktívszereplő-jelzőjét (akkor is, ha ezt a *"Pánik"* felszereléskártya vagy egy *"Kulacs"* akciókártya miatt teszi), húzz egy lapot! Ha ellenfelednek már csak 1 szereplője maradt életben, a kártyának nincs hatása.
 
-
 # A törvény emberei
-
 ![Alan Pinkertoon](pics/alan_pinkertoon.jpg "Alan Pinkertoon")
 **Alan Pinkertoon:** Minden alkalommal, amikor elveszít egy életpontot (kivéve, ha utolsó életpontját veszítette el), ellenfeled aktív szereplője egy "Találat" célpontjává válik. Ez a képesség akkor is aktiválódik, ha hátvédként van játékban, és életet veszít egy *"Indiánok!"* vagy *"Gatling"* kártya hatására.
 

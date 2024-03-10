@@ -7,17 +7,17 @@ Jack Ransome;Bármely játékban lévő szereplőre játszhatsz ki kártyákat.;
 Pearl Hat;Körönként egyszer eldobhatsz 1 lapot, hogy végrehajthasd a dobópakli tetején lévő akciókártyát.;pics/pearl_hat.jpg;True;3
 Sid Curry;Minden alkalommal, amikor Sid egy "Találat" célpontja, felfedheted ellenfeled paklijának legfelső lapját. Ha "Hordó", sikeresen kitértél, és támadód egy "Találat" célpontjává válik.;pics/sid_curry.jpg;True;4
 Silm Poet;Minden alkalommal, amikor ellenfeled hatására elveszít egy életpontot, eldobhatod véletlenszerűen ellenfeled egy kézben tartott lapját.;pics/slim_poet.jpg;True;4
-Soundance Kid;"Mindig aktív" Körönként egyszer eldobhatod egy kézben tartott lapodat, hogy húzhass két lapot a pakliból.;pics/soundance_kid.jpg;True;4
+Soundance Kid;{"Mindig aktív"} Körönként egyszer eldobhatod egy kézben tartott lapodat, hogy húzhass két lapot a pakliból.;pics/soundance_kid.jpg;True;4
 Toco Ramirez;Bármely kézben tartott lapodat kijátszhatod Colt kártyaként.;pics/toco_ramirez.jpg;True;4
 Tom Thorn;Minden alkalommal, amikor ez a szereplő aktív szereplővé válik, ellenfeled hátvéd szereplője egy találat célpontjává válik.;pics/tom_thorn.jpg;True;4
 West Harding;Köröd során akárhány BANG! kártyát kijátszhatsz.;pics/west_harding.jpg;True;4
 Alan Pinkertoon;Minden alkalommal, amikor elveszít egy életpontot, ellenfeled aktív szereplője egy "Találat" célpontjává válik.;pics/alan_pinkertoon.jpg;False;4
 Annie Oakey;Kijátszhatod a "Találat" kártyákat "Kitérés"-ként, a "Nem talált" kártyákat Coltként.;pics/annie_oakey.jpg;False;4
-Bart Masterson;"Mindig aktív" Minden alkalommal, amikor valaki kártyát fed fel, két kártyát vegyetek fel. Te választod ki, a két kártya közül melyik kártya szimbóluma legyen érvényes.;pics/bart_masterson.jpg;False;4
+Bart Masterson;{"Mindig aktív"} Minden alkalommal, amikor valaki kártyát fed fel, két kártyát vegyetek fel. Te választod ki, a két kártya közül melyik kártya szimbóluma legyen érvényes.;pics/bart_masterson.jpg;False;4
 Bill Tightman;Minden alkalommal, amikor egy szereplő kiesik a játékból, húzz 2 lapot a pakliból!;pics/bill_tightman.jpg;False;5
-Buffalo Bell;"Mindig aktív" Amikor a másik szereplőd életpontot veszítene, dönthetsz úgy, hogy helyette Bell veszít életpontot (kivéve az utolsó életpontját).;pics/buffalo_bell.jpg;False;4
+Buffalo Bell;{"Mindig aktív"} Amikor a másik szereplőd életpontot veszítene, dönthetsz úgy, hogy helyette Bell veszít életpontot (kivéve az utolsó életpontját).;pics/buffalo_bell.jpg;False;4
 Dalon Ranger;Minden alkalommal, amikor az ellenfeled hatására elveszít egy életpontot, húzz egy lapot a pakliból!;pics/dalon_ranger.jpg;False;5
-Az Idegen;"Mindig aktív" Köröd során egyel több BANG! kártyát játszhatsz ki.;pics/the_stranger.jpg;False;4
+Az Idegen;{"Mindig aktív"} Köröd során egyel több BANG! kártyát játszhatsz ki.;pics/the_stranger.jpg;False;4
 Jango;Minden alkalommal, amikor ellenfeled mozgatja az aktívszereplő-jelzőjét, húzz egy lapot a pakliból!;pics/jango.jpg;False;3
 Pat Garret;Mutasd meg a második felhúzott lapodat. Ha a rajta lévő szimbólum "Patkó", húzz egy lapot az ellenfél paklijából!;pics/pat_garret.jpg;False;5
 Tex Killer;A BANG! kártyáid elől való kitéréshez ellenfelednek a "Kitérés"-en túl még el kell dobnia egy általa választott lapját.;pics/tex_killer.jpg;False;4
