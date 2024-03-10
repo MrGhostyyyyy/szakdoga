@@ -17,7 +17,7 @@ Mindkét játékos egyedi, az ő oldala számára kialakított paklival kezdi a 
 
 ## A szereplők
 
-![Dalon Ranger](pics/dalon_ranger_example.jpg "Dalon Ranger")
+![Dalon Ranger](pics/dalon_ranger_example.png "Dalon Ranger")
 
 Amikor egy szereplő játékba kerül, a jobb felső sarokban lévó számnak megfelelő mennyiségú számú életponttal kezd. Ez a szám azt is meghatározza, hogy maximálisan hány életpontja lehet az adott szereplőnek. Amikor egy szereplő az utolsó életpontját is elveszíti, kikerül a játékból, és helyét egy új szereplő veszi át a tartalékodból. Minden szereplő csak akkor tudja használni különleges képességét, ha életben van - így képessége már nem aktiválódhat, amikor elveszíti utolsó életpontját.
 
@@ -44,11 +44,11 @@ A kézben tartott lapjaidat felhasználhatod ellenfeled szereplőinek megtámad�
 
 További információkért lásd a játékszably „A kártyák" fejezetét.  
 
-![Paklik elhelyezkedése](pics/decks.jpg "Paklik elhelyezkedése")
+![Paklik elhelyezkedése](pics/decks.png "Paklik elhelyezkedése")
 
 Saját köröd során **egyszer, bármikor** átrakhatod az aktívszereplő-jelződet aktív szereplődről a hátvédedre. Ezzel szereplőid helyet cserélnek: az eddigi hátvéded lesz az aktív szereplőd, az eddigi aktív szereplőd pedig háttérbe vonul, ezzel hátvéddé válva (ám az egyszerűség kedvéért a kártyák maguk nem mozognak - csak a rajtuk lévő jelző). Ezt a köröd során **bármikor** megteheted, viszont csak **egyszer**! Jól fontold meg, mikor melyik szereplődet tartod előtérben, hiszen **csak az aktív szereplőd képessége és az őrá kijátszott kártyák érvényesülnek!**
 
-![Aktívszereplő-jelző mozgatása](pics/active_character.jpg "Aktívszereplő-jelző mozgatása")
+![Aktívszereplő-jelző mozgatása](pics/active_character.png "Aktívszereplő-jelző mozgatása")
 
 **Hátvéded képessége és a rá kijátszott kártyák soha nem érvényesülnek,** két kivétellel:
 - **Ha szerepel rajtuk a "mindig aktív" szimbólum.** Az ezzel a szimbólummal ellátott kártyák és szereplők képessége **mindig aktív**, akkor is, ha ez egy hátvéden van (például Az Idegen képessége akkor is érvényes, ha ő épp a hátvéded, és a „Pánik" kártya is minden köröd elején érvenyesül, függetlenül attól, hogy épp melyik szereplőd aktív stb.).
@@ -63,7 +63,7 @@ Ezután köröd véget ér, és ellenfeled megkezdheti saját körét.
 
 ## A kártyák
 
-![Kártya kinézete](pics/cards.jpg "Kártya kinézete")
+![Kártya kinézete](pics/cards.png "Kártya kinézete")
 
 A kártyapaklidban háromféle lapot találsz: **akciókártyákat** (barna keretszín), **felszereléskártyákat** (kék keretszín) és **BANG!** kártyákat (piros keretszín).
 
@@ -71,7 +71,7 @@ A kártyapaklidban háromféle lapot találsz: **akciókártyákat** (barna kere
 
 - **Felszereléskártyák:** ezek a kártyák képpel felfelé, az asztalra lesznek kijátszva. Ezeket csak a saját hátvédedre vagy ellenfeled aktív szereplőjére játszhatod ki. Ezek a kártyák játékban maradnak, hatásuk folyamatosan érvényesül. Az egyszerűbb átláthatóság érdekében a bal kéz felől eső szereplőd felszereléskártyait a szereplőkártyától balra, a jobb oldali szereplőd felszereléskártyáit az adott szereplőkártyától jobbra helyeződnek el. Azok a felszereléskártyák, amelyeken a "mindig aktív" szimbólum látható (pl. „Csörgőkigyó", „Dinamit", „Pánik" stb.) nem a szereplőkártya mellé, hanem fölé helyeződik kijátszás után. Ezeknek a kártyáknak a hatása folyamatosan érvényesül, függetlenül a szereplő helyzetétől. Ha olyan felszereléskártyát játszol ki, amelynek a nevével megegyező felszerelés már van az adott szereplőnél, dobd el a régi felszereléskártyát, és tedd a helyére az új lapot. Más, „hivatalos" útja nincs a felszereléskártyák eldobásának, bár vannak akciókártyák, melyek feljogosítanak erre. (Például a „Lopás" akciókártya.) Amikor az aktív szereplő hátvéddé válik vagy fordítva, a felszerelésük nem cserél gazdát!
 
-![Felszerelések kiosztása](pics/equipment_placements.jpg "Felszerelések kiosztása")
+![Felszerelések kiosztása](pics/equipment_placements.png "Felszerelések kiosztása")
 
 - **BANG! kártyák**: ezekre a kártyákra ugyanazok a szabályok vonatkoznak, mint az akciókártyákra, két kivétellel: egy körben csak egyet játszhatsz ki. (adódhatnak lehetőségek a korlát átlépésére, például a „Fegyvertáska" **felszereléskártya**.) **BANG! kártyát csak ellenfeled aktív szereplőjére játszhatsz ki.** (Vannak kártyák, amelyek érvénytelenítik ezt a szabályt, például a „Winchester" BANG! kártya.)
 
@@ -95,7 +95,7 @@ Minden találat után, ami elől a célpont nem tudott kitérni, a megcélzott s
 **FELFEDÉS**  
 Ha egy kártya szövege arra utasít, hogy fedj fel egy kártyát, akkor felfordítódik a húzópakli legfelső lapja, és áthelyeződik képpel felfelé, a közös dobópakli tetejére! Ezt követően nézd meg a kártya jobb felső sarkában látható szimbólumot! Ha a szimbólum megegyezik azzal, amelyet a kártya felfedésére utasító lap kért, akkor a kártya hatása életbe lép. Ha a szimbólum nem egyezik meg vele, nem történik semmi. A kártyák sarkában négyféle szimbólumot találsz:
 
-![Szimbólum táblázat](pics/symbols_table.jpg "Szimbólum táblázat")
+![Szimbólum táblázat](pics/symbols_table.png "Szimbólum táblázat")
 
 ***Példa:*** *aktív szereplőd rendelkezik a „Hordó" felszereléskártyával. Ez lehetőséget biztosít arra, hogy minden alkalommal, amikor ellenfeled egy "Talált" hatással célozza ezt a szereplőt, felfedj egy kártyát: ha a felfedett kártyán a "Hordó" szimbólum található, sikerült kitérned a támadás elől. Ellenfeled kijátszik aktív szereplőd ellen egy „Colt" kártyát. Ezért használod a „Hordó" adta lehetőséget, és felfeded a paklid legfelső lapját. Sajnos a felfedett lap jobb felsö sarkában a "Kígyó" szimbólum szerepel. Balszerencse - így a „Hordó" nem nyújt menedéket, de még mindig kijátszhatsz "Kitérés" kártyát, hogy elkerüld a támadást. Ha a felfedett kártyán a "Hordó" szimbólum szerepelt volna, a támadást sikeresen elkerülted volna.*
 
