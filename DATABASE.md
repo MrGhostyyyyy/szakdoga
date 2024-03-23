@@ -11,6 +11,14 @@ Players (játékosok) tábla eltárolja a játékos egyedi azonosítóját (id) 
     id VARCHAR(10) PRIMARY KEY
     name VARCHAR(255)
     description TEXT
+    image VARCHAR(100)
+    type VARCHAR(10)
+    is_bandit BOOLEAN
+    symbol VARCHAR(10)
+    occurence INTEGER
+
+**CharacterCard:**
+    hit_point INTEGER
 
 Cards (kártyák) tábla eltárolja a kártyák egyedi azonosítóját (id) kártyák és nevét (name), illetve a kártya leírását. Ezekkel az adatokkal lesz kitöltve a kártyák weboldali sablonja sablonja.
 

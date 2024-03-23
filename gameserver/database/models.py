@@ -24,32 +24,30 @@ class Card(models.Model):
     id = models.AutoField(primary_key=True)
     # name wont be long for cards 20 enough
     name = models.TextField(max_length=20)
-    short_description = models.TextField(max_length=255)
-    long_description = models.TextField(max_length=255)
+    description = models.TextField(max_length=255)
     # ../../pics/x.png
     image = models.TextField(max_length=100)
     # action, equipment, bang
     type = models.TextField(max_length=10)
-    # bandit or sherrif
-    is_bandit = models.BooleanField()
     # BARREL, SNAKE, DYNAMITE, HORSESHOE
-    symbol = models.TextField(max_length=10)    
-    effect = models.TextField(max_length=100)
+    symbol = models.TextField(max_length=10)
     # how many times it occured
-    occurence = models.IntegerField(default=1)
+    bandit_occurence = models.IntegerField(default=0)
+    cowboy_occurence = models.IntegerField(default=0)
+
+    def __init__(self):
+        pass
 
 class Character(Card):
-    hit_points = models.IntegerField
+    hit_points = models.IntegerField()
+    # bandit or sherrif
+    is_bandit = models.BooleanField()
+
+    def __init__(self):
+        self.type = "character"        
 
 class Symbols(Enum):
     BARREL = 1,
     SNAKE = 2,
     DYNAMITE = 3,
     HORSESHOE = 4,
-
-class Effect(Enum):
-    PULL = 1,
-    BANG = 2,
-    DODGE = 3,
-    RELOAD = 4,
-    ALWAYS = 5,

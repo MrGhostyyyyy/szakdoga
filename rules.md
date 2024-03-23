@@ -3,7 +3,7 @@
 ![Logó](pics/logo.jpg "Logó")
 
 ## Bemutató
-A BANG! A párbaj a klasszikus BANG! játék alapjaira épülő kártyajáték. A törvény emberei végre szemtől szemben találkozhatnak a törvényen kívüliekkel. Eljött a végsố leszámolás ideje, itt bizony rövid időn belül komoly tűzpárbajokra kerül sor - tele meglepetésekkel! Mindkét játékos egyszerre két-két cowboyt irányít: egyet elöl, szemtől szemben ellenfelével, és egyet hátvédként. Csak szereplőid körültekintő pozícionálásával és tulajdonságaik legjobb kihasználásával reménykedhetsz a győzelemben - ami akkor jön el, ha ellenfeled összes karaktere végre fűbe harapott!
+A BANG! A párbaj a klasszikus BANG! játék alapjaira épülő kártyajáték. A törvény emberei végre szemtől szemben találkozhatnak a törvényen kívüliekkel. Eljött a végső leszámolás ideje, itt bizony rövid időn belül komoly tűzpárbajokra kerül sor - tele meglepetésekkel! Mindkét játékos egyszerre két-két cowboyt irányít: egyet elöl, szemtől szemben ellenfelével, és egyet hátvédként. Csak szereplőid körültekintő pozícionálásával és tulajdonságaik legjobb kihasználásával reménykedhetsz a győzelemben - ami akkor jön el, ha ellenfeled összes karaktere végre fűbe harapott!
 
 ## Kártyák
 - 80 játékkártya, két pakliba válogatva: 40 törvény emberének és 40 a törvényen kívülieknek.  
