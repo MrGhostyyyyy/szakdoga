@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'login',
     'settings',
     'signup',
+    'csv_loader',
 ]
 
 MIDDLEWARE = [
