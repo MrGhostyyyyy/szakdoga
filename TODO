@@ -1,0 +1,5 @@
+TODO: unit test csv_loader
+    - loads file correctly
+    - throws error if form is not correct
+    - only works with arguments
+    - 
