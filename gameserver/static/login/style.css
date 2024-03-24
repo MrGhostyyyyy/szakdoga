@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+body {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F08%2FWestern-HD-Wallpaper.jpg&f=1&nofb=1&ipt=f58d9522d7417cbf3f18a89896420f8cd40c26b59510c109f3a2227266bfc422&ipo=images');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+
+label {
+    font-size: 1.3rem;
+}
+
+.content {
+    font-family: "Rubik Dirt", system-ui !important;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    height:100vh;
+}
+
+.container {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgb(119, 136, 153, 0.5);
+    width: 30%;
+}
+
+.btn {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpicjumbo.com%2Fwp-content%2Fuploads%2Fblack-marble-stone-background-texture-pattern-free-photo-2210x1473.jpg&f=1&nofb=1&ipt=ada972186f9974f6b6e2c4d30ddd941e864383605e1d0604fecbb498b4fc4c6b&ipo=images");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white !important;
+    font-size: 1.8rem;
+}
