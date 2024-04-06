@@ -7,29 +7,34 @@ stored in a ``db.sqlite3`` database file and it will be loaded
 from ``.csv`` files using ``scripts/load_csv.py``.
 """
 
-from django.forms import ModelForm
 from django.db import models
-from django.contrib.auth.models import AbstractBaseUser
+from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin
+from .managers import PlayerManager
 
-
-class Player(AbstractBaseUser):
+class Player(AbstractBaseUser, PermissionsMixin):
     """
     ``Players Model`` class for Django's database.
     This stores the information of every user.
     """
+    objects = PlayerManager()
 
     id = models.AutoField(primary_key=True)
     name = models.TextField(max_length=20, unique=True)
     profile_pic = models.TextField(max_length=30)
+    is_superuser = models.BooleanField(default=False)
+    is_staff = models.BooleanField(default=False)
+    is_active = models.BooleanField(default=True)
+
+    USERNAME_FIELD = 'name'
+    NAME_FIELD = 'name'
+    REQUIRED_FIELDS = []
+
+    class Meta:
+        verbose_name = 'Player'
+        verbose_name_plural = 'Players'
 
     def __str__(self):
         return f"{self.id} {self.name} - {self.password} - {self.profile_pic}"
-
-
-class PlayerForm(ModelForm):
-    class Meta:
-        model = Player
-        fields = "__all__"
 
 
 class Achievement(models.Model):
@@ -45,12 +50,6 @@ class Achievement(models.Model):
 
     def __str__(self):
         return f"{self.id} {self.name} - {self.description} - {self.image}"
-
-
-class AchievementForm(ModelForm):
-    class Meta:
-        model = Achievement
-        fields = "__all__"
 
 
 class PlayerAchievement(models.Model):
@@ -73,12 +72,6 @@ class PlayerAchievement(models.Model):
             return None
 
 
-class PlayerAchievementForm(ModelForm):
-    class Meta:
-        model = PlayerAchievement
-        fields = "__all__"
-
-
 class Card(models.Model):
     r"""
     ``Card Model`` class for Django's database.
@@ -98,12 +91,6 @@ class Card(models.Model):
         return f"{self.id} {self.name} - {self.description} - {self.image} - {self.type} - {self.symbol} - {self.bandit_occurence} - {self.cowboy_occurence}"
 
 
-class CardForm(ModelForm):
-    class Meta:
-        model = Card
-        fields = "__all__"
-
-
 class Character(models.Model):
     """
     ``Character Model`` class for Django's database.
@@ -118,9 +105,3 @@ class Character(models.Model):
 
     def __str__(self):
         return f"{self.id} {self.name} - {self.description} - {self.image} - {self.is_bandit} - {self.hit_points}"
-
-
-class CharacterForm(ModelForm):
-    class Meta:
-        model = Character
-        fields = "__all__"

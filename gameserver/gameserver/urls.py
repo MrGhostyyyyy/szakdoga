@@ -22,7 +22,7 @@ urlpatterns = [
     path('', RedirectView.as_view(url='/index')),
     path('index/', include("index.urls")),
     path('achievements/', include("achievements.urls")),
-    path('login/', include("login.urls"), name="login"),
+    path('', include('django.contrib.auth.urls')),
     path('signup/', include("signup.urls")),
     path('game/', include("game.urls")),
     path('landing/', include("landing.urls"))
