@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block title %}Főoldal{% endblock %}
+{% block content %}
+<div class="content container-fluid">
+    <div class="row justify-content-end">
+        <div class="col-sm-12 col-md-6 text-center">
+            {% load static  %}
+            <img src="{% static 'pics/bang_duel_logo.png' %}"
+                alt="Bang Párbaj logó">
+        </div>
+    </div>
+    <div class="row justify-content-end">
+        <div class="col-sm-12 col-md-6 text-center">
+            <p>
+                A BANG! A párbaj a klasszikus BANG! játék alapjaira épülő kártyajáték. A törvény emberei végre szemtől
+                szemben találkozhatnak a törvényen kívüliekkel. Eljött a végső leszámolás ideje, itt bizony rövid időn
+                belül komoly tűzpárbajokra kerül sor - tele meglepetésekkel! Mindkét játékos egyszerre két-két cowboyt
+                irányít: egyet elöl, szemtől szemben ellenfelével, és egyet hátvédként. Csak szereplőid körültekintő
+                pozícionálásával és tulajdonságaik legjobb kihasználásával reménykedhetsz a győzelemben - ami akkor jön
+                el, ha ellenfeled összes karaktere végre fűbe harapott!
+            </p>
+        </div>
+    </div>
+    <div class="row justify-content-end text-center">
+        <div class="col-sm-12 col-md-6">
+            <a id="login" class="btn btn-lg" href="/login">Belépés</a>
+            <a id="signup" class="btn btn-lg" href="/signup">Regisztráció</a>
+        </div>
+    </div>
+</div>
+</div>
+{% endblock %}

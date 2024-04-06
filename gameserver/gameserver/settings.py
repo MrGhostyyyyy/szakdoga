@@ -42,14 +42,19 @@ INSTALLED_APPS = [
     'game',
     'index',
     'landing',
-    'login',
     'settings',
     'signup',
     'csv_loader',
+    'corsheaders',
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://becoming-bluebird-notably.ngrok-free.app',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -63,7 +68,7 @@ ROOT_URLCONF = 'gameserver.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -88,6 +93,9 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+
+AUTH_USER_MODEL = 'database.Player'
 
 
 # Password validation
@@ -136,3 +144,5 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+LOGIN_REDIRECT_URL = '/landing'
+LOGOUT_REDIRECT_URL = '/'
