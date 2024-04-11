@@ -1,6 +1,9 @@
-from django.shortcuts import render
-from django.http import HttpResponse
+from django.urls import reverse_lazy
+from django.views import generic
 
-# Create your views here.
-def index(request):
-    return HttpResponse("signup website needs some work")
+from database.forms import PlayerCreationForm
+
+class SignUpView(generic.CreateView):
+    form_class = PlayerCreationForm
+    success_url = reverse_lazy("landing")
+    template_name = "registration/signup.html"

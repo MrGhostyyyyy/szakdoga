@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
 
 body {
-    background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F08%2FWestern-HD-Wallpaper.jpg&f=1&nofb=1&ipt=f58d9522d7417cbf3f18a89896420f8cd40c26b59510c109f3a2227266bfc422&ipo=images');
+    background-image: url('../pics/main_background.jpg');
     background-position: top left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,7 +23,7 @@ img {
 }
 
 .btn {
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpicjumbo.com%2Fwp-content%2Fuploads%2Fblack-marble-stone-background-texture-pattern-free-photo-2210x1473.jpg&f=1&nofb=1&ipt=ada972186f9974f6b6e2c4d30ddd941e864383605e1d0604fecbb498b4fc4c6b&ipo=images");
+    background-image: url("../pics/button.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: white !important;
