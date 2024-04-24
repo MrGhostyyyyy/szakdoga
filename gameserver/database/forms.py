@@ -1,4 +1,4 @@
-from django.contrib.auth.forms import UserCreationForm, UserChangeForm
+from django.contrib.auth.forms import UserCreationForm
 from django.forms import ModelForm
 from .models import Player, Achievement, Card, Character, PlayerAchievement
 

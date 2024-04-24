@@ -32,10 +32,10 @@ INSTALLED_APPS = [
     'game',
     'index',
     'landing',
-    'settings',
     'signup',
     'csv_loader',
     'corsheaders',
+    'single',
 ]
 
 CSRF_TRUSTED_ORIGINS = [

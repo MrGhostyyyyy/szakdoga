@@ -1,17 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
 
 body {
+    height: 100vh;   
     background-image: linear-gradient(to bottom, #e0dac9, #b2a388);
     background-position: top left;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-img {
-    width: 50%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    border: 5px solid black;
 }
 
 .content {
@@ -21,21 +15,20 @@ img {
     font-size: 1.6rem;
 }
 
-.btn {
+.col {
     background-image: url("../pics/button.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    color: white !important;
     margin-bottom: 2%;
+}
+
+.btn {
+    color: white !important;
     font-size: 2.2rem;
 }
 
-#signup {
-    margin-left: 30px;
-}
-
-#login {
-    margin-right: 30px;
+.row {
+    margin-top: 2%;
 }
 
 /*4K*/
@@ -61,28 +54,12 @@ img {
 }
 
 @media (max-width: 1530px) {
-    body {
-        background-position: 30%;
-        margin-right: 5%;
-    }
-    
     .btn {
         font-size: 1.3rem; 
     }
 }
 
 @media (max-width: 767px) {
-    body {
-        /*it just works*/
-        background-position: right center;
-        background-size: 500% 500%;
-        margin:0;
-    }
-
-    img {
-        width: 70%;
-    }
-
     .content {
         font-size: 1.3rem;
     }
