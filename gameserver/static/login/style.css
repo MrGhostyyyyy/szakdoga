@@ -23,7 +23,6 @@ label {
     padding-top: 2%;
     padding-bottom: 2%;
     background-color: rgb(119, 136, 153, 0.5);
-    width: 30%;
 }
 
 .btn {
@@ -32,6 +31,10 @@ label {
     background-repeat: no-repeat;
     color: white !important;
     font-size: 1.8rem;
+}
+
+.container {
+    margin: 0 !important;
 }
 
 /*4K*/
@@ -65,10 +68,6 @@ label {
 }
 
 @media (min-height: 1000px) {
-    .container {
-        width: 60%;
-    }
-
     h1 {
         font-size: 1.3rem;
     }
@@ -87,9 +86,6 @@ label {
         height: 100vh;
     }
 
-    .container {
-        width: 60%;
-    }
 
     h1 {
         font-size: 1.3rem;

@@ -8,7 +8,6 @@ A BANG! A párbaj a klasszikus BANG! játék alapjaira épülő kártyajáték. 
 ## Kártyák
 - 80 játékkártya, két pakliba válogatva: 40 törvény emberének és 40 a törvényen kívülieknek.  
 - 24 szereplőkártya: 12 törvénytisztelő és 12 törvényen kívüli.
-- 2 aktívszereplő jelző: egy a törvény emberének és egy a törvényen kívülinek.
 
 ## A játék célja
 Mindkét játékos egy-egy cowboyokból álló csoportot irányít - egyikük a törvény embereit, másikuk a törvényen kívüliek csoportját (egyszerre csak két szereplőt). Egy játékos a két éppen játékban lévö szereplője közül az egyiket mindig előtérben tartja, ez lesz az **„aktív szereplője"**, a másik pedig a **„hátvédje"**. A klasszikus BANG! kártyajátékból átvett szabályokkal és kártyákkal, illetve szereplőitek jól megtervezett pozícionálásával arra törekedtek majd, hogy ellenfeletek összes szereplőjét eltegyétek láb alól: amikor egy szereplő kikerül a játékból, új szereplő veszi át a helyét.

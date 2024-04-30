@@ -1,0 +1,11 @@
+name;description;image
+Az első Bang!;Használj egy "Bang!" típusú lapot először;pics/colt.jpg
+Fenékig!;Használj egy "Sör" lapot.;pics/beer.jpg
+Bandita;Nyerj meg 1 párbajt banditaként.;pics/bandit.png
+Törvény embere;Nyerj meg 1 párbajt törvény embereként.;pics/sheriff.png
+Győzelem;Nyerj meg 1 párbajt.;pics/win.jpg
+Nem ma kezdtem;Nyerj meg 5 párbajt.;pics/not-today.jpg
+Veterán párbajozó;Nyerj meg 10 párbajt.;pics/duel.jpg
+Nem talált!;Használj egy "Nem talált!" lapot, hogy kivédj egy támadást.;pics/no-hit.jpg
+Felszerelt;Játsz ki egy felszerelés kártyát.;pics/sniper_two.jpg
+Gatling;Játsz ki egy "Gatling" lapot és ezzel találj el mindenkit!;pics/gatling_two.jpg
