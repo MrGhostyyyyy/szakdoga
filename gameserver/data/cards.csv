@@ -1,7 +1,7 @@
 name;description;image;type;symbol;bandit_occurence;cowboy_occurence
 Colt;{"Találat"};pics/colt.png;bang;DYNAMITE;5;1
-Gyorstüzelés;{"Találat"} Célpontod annyi "Találat" célpontjává válik, ahány felszereléskártya van kijátszva hozzá.;pics/quickfire.png;bang;BARREL;0;1
-Gyorstüzelés;{"Találat"} Célpontod annyi "Találat" célpontjává válik, ahány felszereléskártya van kijátszva hozzá.;pics/quickfire.png;bang;HORSESHOE;0;1
+Gyorstüzelés;{"Találat"} Célpontod annyi "Találat" célpontjává válik, ahány felszereléskártya van kijátszva hozzá.;pics/quickdraw.png;bang;BARREL;0;1
+Gyorstüzelés;{"Találat"} Célpontod annyi "Találat" célpontjává válik, ahány felszereléskártya van kijátszva hozzá.;pics/quickdraw.png;bang;HORSESHOE;0;1
 Karabély;{"Találat"} "Kitérés" esetén azonnal eldobhatsz egy felszereléskártyát valamelyik aktív szereplőtől.;pics/carbine.png;bang;BARREL;1;0
 Karabély;{"Találat"} "Kitérés" esetén azonnal eldobhatsz egy felszereléskártyát valamelyik aktív szereplőtől.;pics/carbine.png;bang;HORSESHOE;0;2
 Peacemaker;{"Találat"} Sikeres "Kitérés" esetén ellenfelednek el kell dobnia egy általa választott, kézben tartott lapját.;pics/peacemaker.png;bang;HORSESHOE;0;2
@@ -20,7 +20,7 @@ Hordó;Amikor ezt a szereplőt "Találat" éri, fedj fel egy kártyát! Ha a fel
 Kalap;Eldobhatod ezt a kártyát. Ez esetben "Kitérés".;pics/hat.png;equipment;HORSESHOE;1;1
 Pánik;{"Újratöltés"} {"Mindig aktív"} Köröd kezdetén cseréld ki aktív és hátvéd szereplődet! (Mozgasd át az aktívszereplő-jelződet!);pics/panic.png;equipment;BARREL;0;1
 Távcsöves Puska;{"Újratöltés"} "Találat" kártyáiddal megcélozhatod ellenfeled hátvéd szereplőjét is.;pics/sniper.png;equipment;HORSESHOE;1;1
-Zsebóra;{"Újratöltés"} Minden alkalommal, amikor ellenfeled mozgatja aktívszereplő-jelzőjét, húzz egy lapot!;pics/pocketwatch.png;equipment;HORSESHOE;2;0
+Zsebóra;{"Újratöltés"} Minden alkalommal, amikor ellenfeled mozgatja aktívszereplő-jelzőjét, húzz egy lapot!;pics/pocket-watch.png;equipment;HORSESHOE;2;0
 Derringer;{"Találat"} Ellenfeled bármely lap eldobásával elkerülheti ezt a "Találat"-t.;pics/derringer.png;action;HORSESHOE;0;3
 Derringer;{"Találat"} Ellenfeled bármely lap eldobásával elkerülheti ezt a "Találat"-t.;pics/derringer.png;action;SNAKE;0;1
 Garling;{"Találat"} Az aktív szereplődön kívül minden játékban lévő szereplő egy "Találat" célpontjává válik.;pics/gatling.png;action;BARREL;0;1
@@ -32,15 +32,15 @@ Kulacs;{"Újratöltés"} Cseréld ki a saját vagy ellenfeled aktív és hátvé
 Kulacs;{"Újratöltés"} Cseréld ki a saját vagy ellenfeled aktív és hátvéd szereplőjét! (Mozgasd át az aktívszereplő-jelzőt!);pics/canteen.png;action;BARREL;0;3
 Lopás;Húzz egy lapot ellenfeled kezéből vagy dobj el egy játékban lévő lapot! (Ellenfeled hátvédjétől nem lophatsz!);pics/steal.png;action;BARREL;1;0
 Lopás;Húzz egy lapot ellenfeled kezéből vagy dobj el egy játékban lévő lapot! (Ellenfeled hátvédjétől nem lophatsz!);pics/steal.png;action;HORSESHOE;3;0
-Nem Talált!;{"Kitérés"};pics/no_hit.png;action;HORSESHOE;1;0
-Nem Talált!;{"Kitérés"};pics/no_hit.png;action;BARREL;1;1
-Nem Talált!;{"Kitérés"};pics/no_hit.png;action;SNAKE;5;4
+Nem Talált!;{"Kitérés"};pics/no-hit.png;action;HORSESHOE;1;0
+Nem Talált!;{"Kitérés"};pics/no-hit.png;action;BARREL;1;1
+Nem Talált!;{"Kitérés"};pics/no-hit.png;action;SNAKE;5;4
 Párbaj;Ellenfeled eldobhat egy "Találat" kártyát, utána eldobhatsz te is egyet, majd ő stb. 1 életpontot veszít az első olyan játékos aktív szereplője, aki nem tudja vagy nem akarja ezt megtenni.;pics/duel.png;action;DYNAMITE;0;1
 Párbaj;Ellenfeled eldobhat egy "Találat" kártyát, utána eldobhatsz te is egyet, majd ő stb. 1 életpontot veszít az első olyan játékos aktív szereplője, aki nem tudja vagy nem akarja ezt megtenni.;pics/duel.png;action;HORSESHOE;1;0
 Postakocsi;Húzz 3 lapot, egyet dobj el, a másik kettőt tartsd meg!;pics/postcar.png;action;BARREL;1;2
 Sör;Aktív és hátvéd szereplőd visszanyer 1-1 életpontot.;pics/beer.png;action;BARREL;1;0
-Szatócsbolt;Fordíts fel 2-2 lapot mindkét pakliból (vagy négy lapot a közös pakliból, ha már csak egy pakli van)! Felváltva vegyétek megatokhoz a felfordított kártyákat! Te kezdesz.;pics/grocery.png;action;SNAKE;0;1
-Szatócsbolt;Fordíts fel 2-2 lapot mindkét pakliból (vagy négy lapot a közös pakliból, ha már csak egy pakli van)! Felváltva vegyétek megatokhoz a felfordított kártyákat! Te kezdesz.;pics/grocery.png;action;HORSESHOE;1;0
+Szatócsbolt;Fordíts fel 2-2 lapot mindkét pakliból (vagy négy lapot a közös pakliból, ha már csak egy pakli van)! Felváltva vegyétek megatokhoz a felfordított kártyákat! Te kezdesz.;pics/general-store.png;action;SNAKE;0;1
+Szatócsbolt;Fordíts fel 2-2 lapot mindkét pakliból (vagy négy lapot a közös pakliból, ha már csak egy pakli van)! Felváltva vegyétek megatokhoz a felfordított kártyákat! Te kezdesz.;pics/general-store.png;action;HORSESHOE;1;0
 Tanítónő;Vedd fel kezedbe az egyik, már asztalon lévő felszereléskártyát! (Az ellenfeled hátvédjétől nem lehet.);pics/teacher.png;action;HORSESHOE;0;1
 Tanítónő;Vedd fel kezedbe az egyik, már asztalon lévő felszereléskártyát! (Az ellenfeled hátvédjétől nem lehet.);pics/teacher.png;action;HORSESHOE;0;1
 Visszatámadás;{"Kitérés"} Ellenfeled aktív szereplője 1 "Találat" célpontjává válik.;pics/counter.png;action;HORSESHOE;0;1

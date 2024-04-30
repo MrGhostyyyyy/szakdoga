@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+{% block title %}Eredmények{% endblock %}
+{% block content %}
+<div class="outer container-fluid">
+    <div class="row justify-content-center mb-4">
+        <div class="col-12 text-center">
+            <h1>Eredmények</h1>
+        </div>
+    </div>
+
+    <div class="row justify-content-center mb-4">
+        <div class="col-12 text-center">
+            <h2>Elért eredményeid</h2>
+        </div>
+    </div>
+
+    {% if achieved %}
+    {% for a in achieved %}
+    <div class="row justify-content-center mb-2">
+        <div class="col-8 d-flex border border-dark p-0">
+            <div class="col-3">
+                {% load static %}
+                <img class="img-fluid border border-dark" src="{% static a.image %}" alt="Eredmény képe">
+            </div>
+            <div class="col-9 text-center">
+                <div class="row justify-content-center align-items-center h-40">
+                    <p> {{ a.name }} </p>
+                </div>
+                <div class="row justify-content-center align-items-center h-60">
+                    <p> {{ a.description }} </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+    {% else %}
+    <div class="row justify-content-center mb-2">
+        <div class="col-12 text-center">
+            <p>Gratulálok feloldottál minden eredményt!</p>
+        </div>
+    </div>
+    {% endif %}
+
+    <div class="row justify-content-center mb-4">
+        <div class="col-12 text-center">
+            <h2>Teljesítésre váró eredmények</h2>
+        </div>
+    </div>
+
+    {% if unachieved %}
+    {% for u in unachieved %}
+    <div class="row justify-content-center mb-2">
+        <div class="col-8 d-flex border border-dark p-0">
+            <div class="col-3">
+                {% load static %}
+                <img class="img-fluid border border-dark" src="{% static u.image %}" alt="Eredmény képe">
+            </div>
+            <div class="col-9 text-center">
+                <div class="row justify-content-center align-items-center h-40">
+                    <p> {{ u.name }} </p>
+                </div>
+                <div class="row justify-content-center align-items-center h-60">
+                    <p> {{ u.description }} </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+    {% else %}
+    <div class="row justify-content-center mb-2">
+        <div class="col-12 text-center">
+            <p>Gratulálok feloldottál minden eredményt!</p>
+        </div>
+    </div>
+    {% endif %}
+
+    <div class="row justify-content-center mt-5">
+        <div class="col-8 text-center">
+            <a class="btn" href="/landing">Vissza</a>
+        </div>
+    </div>
+
+</div>
+{% endblock %}

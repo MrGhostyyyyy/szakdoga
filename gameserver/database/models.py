@@ -20,7 +20,7 @@ class Player(AbstractBaseUser, PermissionsMixin):
 
     id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=20, unique=True)
-    profile_pic = models.TextField(max_length=30)
+    wins = models.IntegerField(default=0)
     is_superuser = models.BooleanField(default=False)
     is_staff = models.BooleanField(default=False)
     is_active = models.BooleanField(default=True)
@@ -34,7 +34,7 @@ class Player(AbstractBaseUser, PermissionsMixin):
         verbose_name_plural = 'Players'
 
     def __str__(self):
-        return f"{self.id} {self.name} - {self.password} - {self.profile_pic}"
+        return f"{self.id} {self.name} - {self.password} {self.wins}"
 
 
 class Achievement(models.Model):
@@ -63,8 +63,8 @@ class PlayerAchievement(models.Model):
 
     def __str__(self):
         try:
-            player = Player.objects.get(id=self.player_id)
-            achievement = Achievement.objects.get(id=self.achievement_id)
+            player = Player.objects.get(id=self.player_id.id)
+            achievement = Achievement.objects.get(id=self.achievement_id.id)
             return f"{player.name} - {achievement.name}"
         except Player.DoesNotExist:
             return None

@@ -1,6 +1,6 @@
 import csv
 from django.core.management.base import BaseCommand, CommandParser
-from database.models import CardForm, CharacterForm, AchievementForm
+from database.forms import CardForm, CharacterForm, AchievementForm
 
 
 class Command(BaseCommand):
